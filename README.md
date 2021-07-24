@@ -16,6 +16,24 @@ Naive Random Oversampling
 ![naive_random_oversampling](https://user-images.githubusercontent.com/78178900/126879758-9d72d782-5f66-4a18-ac14-dc644c68f8e6.png)
 
 
+SMOTE Oversampling
+> **from** imblearn.over_sampling **import** SMOTE
+
+![smote_oversampling](https://user-images.githubusercontent.com/78178900/126879848-64828ee0-987d-43e8-ad3e-a696301d5019.png)
+
+
+ClusterCentroids Undersampling
+> **from** imblearn.under_sampling **import** ClusterCentroids
+
+![clusterCentroids_undersampling](https://user-images.githubusercontent.com/78178900/126879896-5cb8dfb9-6695-4552-ba31-7481f7a2319c.png)
+
+
+SMOTEENN Combination (over and under) Sampling
+> **from** imblearn.combine **import** SMOTEENN
+
+![smoteenn_combination_sampling](https://user-images.githubusercontent.com/78178900/126879930-0792fd44-0574-42eb-9cae-1126988d7b2a.png)
+
+
 ## Summary
 
 #### Recomendations:
