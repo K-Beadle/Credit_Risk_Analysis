@@ -8,6 +8,13 @@ Use Python to build and evaluate several machine learning models to predict cred
 
 ## Results
 
+**_The data was resampled using the following methods:_**
+
+Naive Random Oversampling
+> **from** imblearn.over_sampling **import** RandomOverSampler
+![naive_random_oversampling](https://user-images.githubusercontent.com/78178900/126879758-9d72d782-5f66-4a18-ac14-dc644c68f8e6.png)
+
+
 ## Summary
 
 #### Recomendations:
