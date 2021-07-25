@@ -36,7 +36,7 @@ SMOTEENN Combination (over and under) Sampling
 ![smoteenn_combination_sampling](https://user-images.githubusercontent.com/78178900/126879930-0792fd44-0574-42eb-9cae-1126988d7b2a.png)
 
 
-**_Ensemble classifiers were used to predict credit risk:_**
+**_The following ensemble classifiers were used to predict credit risk:_**
 
 Balanced Random Forest Classifer
 > **from** imblearn.ensemble **import** BalancedRandomForestClassifier
