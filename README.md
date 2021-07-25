@@ -8,7 +8,7 @@ Use Python to build and evaluate several machine learning models to predict cred
 
 ## Results
 
-**_The data was resampled using the following methods:_**
+**_The following resampling methods were used to predict credit risk:_**
 
 Naive Random Oversampling
 > **from** imblearn.over_sampling **import** RandomOverSampler
@@ -28,10 +28,26 @@ ClusterCentroids Undersampling
 ![clusterCentroids_undersampling](https://user-images.githubusercontent.com/78178900/126879896-5cb8dfb9-6695-4552-ba31-7481f7a2319c.png)
 
 
+**_The SMOTEENN method was used to predict credit risk:_**
+
 SMOTEENN Combination (over and under) Sampling
 > **from** imblearn.combine **import** SMOTEENN
 
 ![smoteenn_combination_sampling](https://user-images.githubusercontent.com/78178900/126879930-0792fd44-0574-42eb-9cae-1126988d7b2a.png)
+
+
+**_Ensemble classifiers were used to predict credit risk:_**
+
+Balanced Random Forest Classifer
+> **from** imblearn.ensemble **import** BalancedRandomForestClassifier
+
+![balanced_random_forest_classifier](https://user-images.githubusercontent.com/78178900/126887599-23a15426-237b-4d7b-ba77-79ffda0c08b5.png)
+
+
+Easy Ensemble AdaBoost Classifier
+> **from** imblearn.ensemble **import** EasyEnsembleClassifier
+
+![easy_ensemble_classifier](https://user-images.githubusercontent.com/78178900/126887656-0ce68ede-109b-4764-b50b-df201faa5e8d.png)
 
 
 ## Summary
